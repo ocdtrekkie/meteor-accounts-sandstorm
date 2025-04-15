@@ -23,7 +23,7 @@ function loginWithSandstorm(connection, apiHost, apiToken) {
   // Log in the connection using Sandstorm authentication.
   //
   // After calling this, connection.sandstormUser() will reactively return an object containing
-  // Sansdstorm user info, including permissions as authenticated by the server. Even if the user
+  // Sandstorm user info, including permissions as authenticated by the server. Even if the user
   // is anonymous, this information is returned. `sandstormUser()` returns `null` up until the
   // point where login succeeds.
 
